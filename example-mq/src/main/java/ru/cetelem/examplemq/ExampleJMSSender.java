@@ -28,7 +28,7 @@ public class ExampleJMSSender {
 	}
 
 	public void sendMesage(final byte[] mess) {
-		System.out.println("Send message...");
+		System.out.println("Send a message...");
 		jmsTemplate.send(new MessageCreator() {
 			public Message createMessage(Session session) throws JMSException {
 				BytesMessage byteMess = session.createBytesMessage();
