@@ -25,3 +25,5 @@ nbdist/
 /lib
 /.mvn
 /.settings
+/mvnw
+/mvnw.cmd
