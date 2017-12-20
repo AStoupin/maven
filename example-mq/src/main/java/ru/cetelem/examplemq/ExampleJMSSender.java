@@ -10,6 +10,10 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 
+/*
+ * 	New comment added
+ * 
+ * */
 public class ExampleJMSSender {
 	private static final Log log = LogFactory.getLog(ExampleJMSSender.class);
 	
