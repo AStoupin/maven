@@ -11,7 +11,7 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 
 /*
- * 	New comment added
+ * 	New comment added 20/12
  * 
  * */
 public class ExampleJMSSender {
