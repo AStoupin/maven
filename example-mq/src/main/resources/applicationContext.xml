@@ -21,13 +21,13 @@
                                   <value>ART-MQ</value>
                            </property>
                            <property name="queueManager">
-                                  <value>MY_QM</value>
+                                  <value>MY_QM1</value>
                            </property>
                            <property name="channel">
-                                  <value>MY_QM_CONN</value>
+                                  <value>MY_QM1_CONN</value>
                            </property>
                            <property name="port">
-                                  <value>1414</value>
+                                  <value>1415</value>
                            </property>
                            <property name="transportType" value="1" />
                      </bean>
@@ -65,7 +65,9 @@
 	<bean id="jmsSender" class="ru.cetelem.examplemq.ExampleJMSSender">
 		<property name="jmsTemplate">
 			<ref bean="jmsTemplate" />
-		</property>
+		</property> 
 	</bean>
 
+	<bean id="jmsReciever" class="ru.cetelem.examplemq.ExampleJMSReciever">
+	</bean>
 </beans>

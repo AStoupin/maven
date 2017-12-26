@@ -11,10 +11,10 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 
 /*
- * 	New comment added 20/12 sdfsd
+ * 	New comment added 20/12 
  * 
  * */
-public class ExampleJMSSender {
+public class ExampleJMSSender implements IExampleJMSSender {
 	private static final Log log = LogFactory.getLog(ExampleJMSSender.class);
 	
 	private JmsTemplate jmsTemplate;
@@ -27,8 +27,13 @@ public class ExampleJMSSender {
 		this.jmsTemplate = jmsTemplate;
 	}
 
+	
+	/* (non-Javadoc)
+	 * @see ru.cetelem.examplemq.IExampleJMSSender#sendMesage(byte[])
+	 */
+	@Override
 	public void sendMesage(final byte[] mess) {
-		System.out.println("Send a message...");
+		log.info("Send a message...");
 		jmsTemplate.send(new MessageCreator() {
 			public Message createMessage(Session session) throws JMSException {
 				BytesMessage byteMess = session.createBytesMessage();
