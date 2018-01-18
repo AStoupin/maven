@@ -16,7 +16,7 @@ public class ExampleMqApplication   implements CommandLineRunner{
 	private static final Log log = LogFactory.getLog(ExampleMqApplication.class);
 	
 	@Autowired
-	private IExampleJMSSender exampleJMSSender;
+	private ExampleJMSSender exampleJMSSender;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ExampleMqApplication.class, args);
@@ -27,7 +27,7 @@ public class ExampleMqApplication   implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
     	log.info("started!");
-    	exampleJMSSender.sendMesage("<Field1><Field1>Hello</Field1><Field2>world!</Field2></Field1>".getBytes());
+    	exampleJMSSender.sendMesage("<Message1><Field1>Hello</Field1><Field2>world!</Field2></Message1>");
     }
 		
 }
