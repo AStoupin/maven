@@ -90,7 +90,7 @@
 				<version>2.5.3</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<!-- <autoVersionSubmodules>true</autoVersionSubmodules> -->
 					<releaseProfiles>nexus</releaseProfiles>
 				</configuration>
 			</plugin>
