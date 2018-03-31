@@ -55,12 +55,12 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>my-snapshots</id>
+			<id>nexusServer</id>
 			<name>My internal repository</name>
 			<url>http://localhost:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 		<repository>
-			<id>my-releases</id>
+			<id>nexusServer</id>
 			<name>My internal repository</name>
 			<url>http://localhost:8081/repository/maven-releases</url>
 		</repository>
@@ -91,7 +91,7 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					 <autoVersionSubmodules>true</autoVersionSubmodules> 
 					<releaseProfiles>nexus</releaseProfiles>
-  					<serverId>nexusServer</serverId>
+  					
                   <nexusUrl>http://localhost:8081/nexus/</nexusUrl>					
 				</configuration>
 			</plugin>
