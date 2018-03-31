@@ -70,7 +70,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/AStoupin/maven.git/MyBootApp</developerConnection>
 		<url>https://github.com/AStoupin/maven.git/MyBootApp</url>
-		<tag>MyBootApp-0.0.1</tag>
+		<tag>v@{project.version}</tag>
 	</scm>
 
 	<build>
