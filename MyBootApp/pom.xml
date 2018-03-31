@@ -57,12 +57,12 @@
 		<snapshotRepository>
 			<id>my-snapshots</id>
 			<name>My internal repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<url>http://localhost:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>my-releases</id>
 			<name>My internal repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<url>http://localhost:8081/repository/maven-releases</url>
 		</repository>
 	</distributionManagement>
 
