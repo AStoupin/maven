@@ -91,6 +91,8 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					 <autoVersionSubmodules>true</autoVersionSubmodules> 
 					<releaseProfiles>nexus</releaseProfiles>
+  					<serverId>nexus-releases</serverId>
+                  <nexusUrl>http://localhost:8081/nexus/</nexusUrl>					
 				</configuration>
 			</plugin>
 
