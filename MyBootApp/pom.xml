@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MyBoot</groupId>
 	<artifactId>MyBootApp</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.7</version>
 
 
 	<packaging>war</packaging>
@@ -69,7 +69,7 @@
 	<scm>
 		<developerConnection>scm:git:https://AStoupin:3472Ans1@github.com/AStoupin/maven.git</developerConnection>
 		<url>https://AStoupin:3472Ans1@github.com/AStoupin/maven.git</url>
-		<tag>HEAD</tag>
+		<tag>v0.0.7</tag>
 	</scm>
 
 	<build>
