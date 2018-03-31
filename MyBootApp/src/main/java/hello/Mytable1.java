@@ -9,5 +9,4 @@ public class Mytable1 {
     @Id
     Long id;
     String name;
-
 }
