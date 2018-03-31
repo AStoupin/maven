@@ -89,7 +89,7 @@
 				<version>2.5.3</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<!-- <autoVersionSubmodules>true</autoVersionSubmodules> -->
+					 <autoVersionSubmodules>true</autoVersionSubmodules> 
 					<releaseProfiles>nexus</releaseProfiles>
 				</configuration>
 			</plugin>
@@ -103,6 +103,7 @@
               <artifactId>maven-scm-plugin</artifactId>
               <version>1.9</version>
               <configuration>
+               	<serverId>nexus</serverId>
                   <tag>${project.artifactId}-${project.version}</tag>
               </configuration>
           </plugin>
