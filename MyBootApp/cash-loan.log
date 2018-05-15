@@ -1,0 +1,690 @@
+C:\bin\wildfly-10.1.0.Final.Clean\bin\standalone.bat
+"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Dfile.encoding=windows-1251 -classpath C:\bin\ideaIU-2017.3.win\lib\idea_rt.jar com.intellij.rt.execution.CommandLineWrapper C:\Windows\Temp\idea_classpath com.intellij.javaee.oss.process.JavaeeProcess 59454 com.intellij.javaee.oss.jboss.agent.JBoss71Agent
+[2017-12-11 05:38:42,790] Artifact cash-loan-status-service:war: Waiting for server connection to start artifact deployment...
+[2017-12-11 05:38:42,790] Artifact cash-loan-service:war: Waiting for server connection to start artifact deployment...
+Detected server admin port: 9990
+Detected server http port: 8080
+Calling "C:\bin\wildfly-10.1.0.Final.Clean\bin\standalone.conf.bat"
+"JAVA_OPTS already set in environment; overriding default settings with values: -Dvisualvm.id=28936888107069 "
+Setting JAVA property to "C:\Program Files\Java\jdk1.8.0_121\bin\java"
+===============================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: "C:\bin\wildfly-10.1.0.Final.Clean"
+
+  JAVA: "C:\Program Files\Java\jdk1.8.0_121\bin\java"
+
+  JAVA_OPTS: "-Dprogram.name=standalone.bat -Dvisualvm.id=28936888107069 "
+
+===============================================================================
+
+17:38:43,512 INFO  [org.jboss.modules] [uuid=] (main) JBoss Modules version 1.5.2.Final
+17:38:43,684 INFO  [org.jboss.msc] [uuid=] (main) JBoss MSC version 1.2.6.Final
+17:38:43,744 INFO  [org.jboss.as] [uuid=] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+17:38:44,792 INFO  [org.jboss.as.server] [uuid=] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+17:38:44,806 INFO  [org.xnio] [uuid=] (MSC service thread 1-7) XNIO version 3.4.0.Final
+17:38:44,814 INFO  [org.xnio.nio] [uuid=] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+17:38:44,850 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+17:38:44,876 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+17:38:44,910 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+17:38:45,019 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+17:38:45,019 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+17:38:45,023 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+17:38:45,035 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+17:38:45,044 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+17:38:45,050 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+17:38:45,074 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+17:38:45,100 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:38:45,101 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+17:38:45,121 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+17:38:45,130 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+17:38:45,148 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+17:38:45,258 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.driver.OracleDriver (version 11.2)
+17:38:45,262 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = oracle
+17:38:45,275 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+17:38:45,275 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+17:38:45,320 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\bin\wildfly-10.1.0.Final.Clean/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+17:38:45,325 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server dss-server.
+17:38:45,326 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server ws-server.
+17:38:45,327 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host ws-host starting
+17:38:45,327 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+17:38:45,327 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+17:38:45,327 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host dss-host starting
+17:38:45,417 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on [0:0:0:0:0:0:0:0]:8080
+17:38:45,423 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener ws-listener listening on [0:0:0:0:0:0:0:0]:8765
+17:38:45,424 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener dss-listener listening on [0:0:0:0:0:0:0:0]:8090
+дек 11, 2017 5:38:45 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.4.0.Final
+дек 11, 2017 5:38:45 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.4.0.Final
+17:38:45,570 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\bin\wildfly-10.1.0.Final.Clean\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+17:38:45,584 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/bankinfo/datasource]
+17:38:45,584 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+17:38:45,584 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/dictionary/datasource]
+17:38:45,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/vendorinfo/datasource]
+17:38:45,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/jdbc/RASDataSource]
+17:38:45,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/PledgeRegistryDS]
+17:38:45,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/VerificationServiceDS]
+17:38:45,586 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/SBOL_DS]
+17:38:45,586 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/jdbc/CashLoanDataSource]
+17:38:45,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/dwhfr/datasource]
+17:38:45,591 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/jdbc/MTSDataSource]
+17:38:45,592 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/OSMPDataSource]
+17:38:45,592 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/autofill/datasource]
+17:38:45,606 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/jdbc/DSSDataSource]
+17:38:45,607 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\bin\wildfly-10.1.0.Final.Clean\standalone\deployments
+17:38:45,838 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+17:38:45,892 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:45,896 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:45,897 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:45,897 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:45,899 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:45,899 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+17:38:46,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on [0:0:0:0:0:0:0:0]:8443
+17:38:46,125 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+17:38:46,363 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+17:38:46,363 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+17:38:46,386 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 3139ms - Started 426 of 673 services (413 services are lazy, passive or on-demand)
+дек 11, 2017 5:38:46 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 4.0.21.Final
+Connected to server
+[2017-12-11 05:38:46,806] Artifact cash-loan-status-service:war: Artifact is being deployed, please wait...
+[2017-12-11 05:38:46,806] Artifact cash-loan-service:war: Artifact is being deployed, please wait...
+17:38:46,913 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cash-loan-status-service-1.1.1.war" (runtime-name: "cash-loan-status-service-1.1.1.war")
+17:38:50,924 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry hk2-core.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,924 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry class-model.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,924 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry config.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry auto-depends.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry javax.inject.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry asm-all-repackaged.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry hk2-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry osgi-resource-locator.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry tiger-types.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,925 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry bean-validator.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,926 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jtype.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,945 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry istack-commons-runtime-2.19.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxb-core-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,946 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry txw2-2.2.10-b140802.1033.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxb-core-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,946 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxb-impl-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry javax.annotation-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry javax.xml.soap-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,947 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry FastInfoset.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry gmbal-api-only.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry ha-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry management-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,948 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry mimepull.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry policy.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry stax2-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:50,950 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry woodstox-core-asl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:38:51,325 INFO  [stdout] (MSC service thread 1-3) 17:38:51,223 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:38:51,325 INFO  [stdout] (MSC service thread 1-3) 17:38:51,224 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:38:51,325 INFO  [stdout] (MSC service thread 1-3) 17:38:51,224 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/classes/logback.xml]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,225 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,225 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/classes/logback.xml]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,225 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/lib/ruxapi-client-1.0.16.jar/logback.xml]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,231 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4a2469fb - URL [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-status-service-1.1.1.war/WEB-INF/classes/logback.xml] is not of type file
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,290 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,290 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,294 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,297 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,308 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,310 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,310 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,314 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@895723581 - No compression will be used
+17:38:51,326 INFO  [stdout] (MSC service thread 1-3) 17:38:51,315 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@895723581 - Will use the pattern C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-status-service-%d{yyyy-MM-dd}.log for the active file
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,317 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-status-service-%d{yyyy-MM-dd}.log'.
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,317 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,318 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Dec 11 17:31:06 MSK 2017
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,319 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-status-service.log
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,319 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-status-service.log]
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,320 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,320 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE_SOAP]
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,321 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,321 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@819926493 - No compression will be used
+17:38:51,327 INFO  [stdout] (MSC service thread 1-3) 17:38:51,321 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@819926493 - Will use the pattern C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-status-service_SOAP-%d{yyyy-MM-dd}.log for the active file
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,322 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-status-service_SOAP-%d{yyyy-MM-dd}.log'.
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,322 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,322 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Dec 11 17:31:06 MSK 2017
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,322 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_SOAP] - Active log file name: C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-status-service_SOAP.log
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,322 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_SOAP] - File property is set to [C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-status-service_SOAP.log]
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ru.cetelem.ws.cash] to INFO
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ru.cetelem.ws.cash] to false
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ru.cetelem.ws.cash]
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ru.cetelem.ws.cash]
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ru.cetelem.ws.cash.LoggingHandler] to INFO
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ru.cetelem.ws.cash.LoggingHandler] to false
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ru.cetelem.ws.cash.LoggingHandler]
+17:38:51,328 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE_SOAP] to Logger[ru.cetelem.ws.cash.LoggingHandler]
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 17:38:51,323 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 17:38:51,324 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@110f6a04 - Registering current configuration as safe fallback point
+17:38:51,329 INFO  [stdout] (MSC service thread 1-3) 
+17:38:51,414 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+17:38:51,415 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component com.sun.xml.ws.transport.http.servlet.WSAsyncListener$1 due to an exception (enable DEBUG log level to see the cause)
+17:38:51,415 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+17:38:51,476 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment deployment "cash-loan-status-service-1.1.1.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+17:38:51,505 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ru.cetelem.ws.cash.CashLoanStatusService
+ address=http://jbossws.undefined.host:8080/CashLoanStatusService/CashLoanStatusService
+ implementor=ru.cetelem.ws.cash.CashLoanStatusService
+ serviceName={http://cash.ws.cetelem.ru/}CashLoanStatusServiceService
+ portName={http://cash.ws.cetelem.ru/}CashLoanStatusServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+17:38:51,792 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://cash.ws.cetelem.ru/}CashLoanStatusServiceService from class ru.cetelem.services.cash.status.ICashLoanStatusService
+17:38:52,010 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://jbossws.undefined.host:8080/CashLoanStatusService/CashLoanStatusService
+17:38:52,125 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/bin/wildfly-10.1.0.Final.Clean/standalone/data/wsdl/cash-loan-status-service-1.1.1.war/CashLoanStatusServiceService.wsdl
+17:38:52,166 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0003: Starting service jboss.ws.endpoint."cash-loan-status-service-1.1.1.war"."ru.cetelem.ws.cash.CashLoanStatusService"
+17:38:52,252 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 29) No Spring WebApplicationInitializer types detected on classpath
+17:38:52,662 INFO  [com.sun.xml.ws.servlet.http] (ServerService Thread Pool -- 29) WSSERVLET14: JAX-WS servlet initializing
+17:38:52,668 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 29) Initializing Spring root WebApplicationContext
+17:38:52,671 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:52.669 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:38:52,698 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:52.698 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:38:52 MSK 2017]; root of context hierarchy
+17:38:52,726 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:52.726 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Successfully resolved class for [ru.cetelem.ws.cash.Config]
+17:38:52,950 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:52.950 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:38:53,251 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.251 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.c.w.DefaultContextLoadTimeWeaver - Determined server-specific load-time weaver: org.springframework.instrument.classloading.jboss.JBossLoadTimeWeaver
+17:38:53,261 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.261 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.c.w.DefaultContextLoadTimeWeaver - Determined server-specific load-time weaver: org.springframework.instrument.classloading.jboss.JBossLoadTimeWeaver
+17:38:53,413 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.413 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+17:38:53,559 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.556 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+17:38:53,559 INFO  [stdout] (ServerService Thread Pool -- 29) 	name: default
+17:38:53,559 INFO  [stdout] (ServerService Thread Pool -- 29) 	...]
+17:38:53,799 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.799 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.Version - HHH000412: Hibernate Core {5.2.10.Final}
+17:38:53,801 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.801 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.c.Environment - HHH000206: hibernate.properties not found
+17:38:53,886 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:53.886 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17:38:54,315 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.315 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+17:38:54,412 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.412 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@5601b4c1
+17:38:54,413 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.413 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@5601b4c1
+17:38:54,413 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.413 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@2215bc85
+17:38:54,414 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.414 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@2215bc85
+17:38:54,655 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.655 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:38:54,658 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.658 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:38:54,658 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.658 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:38:54,659 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:54.659 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:38:54,824 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 29) HV000001: Hibernate Validator 5.2.4.Final
+17:38:55,181 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:55.181 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:38:56,353 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:56.353 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.a.f.CglibAopProxy - Final method [public final java.lang.String com.google.common.eventbus.EventBus.identifier()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+17:38:56,354 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:56.353 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.a.f.CglibAopProxy - Final method [final java.util.concurrent.Executor com.google.common.eventbus.EventBus.executor()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+17:38:56,454 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:56.454 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+17:38:56,897 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:56.897 [ServerService Thread Pool -- 29] INFO  [uuid=] c.j.m.Manifests - 82 attributes loaded from 82 stream(s) in 12ms, 82 saved, 965 ignored: ["Agent-Class", "Ant-Version", "Archiver-Version", "Bnd-LastModified", "Build-Id", "Build-Jdk", "Build-Timestamp", "Build-Version", "BuildInfo-Host", "BuildInfo-Revision", "BuildInfo-Timestamp", "BuildInfo-URL", "BuildInfo-User", "Built-By", "Bundle-Activator", "Bundle-ContactAddress", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Can-Redefine-Classes", "Cash-Loan-Status-Service-Version", "Class-Path", "Created-By", "DynamicImport-Package", "Export-Package", "Extension-Name", "Git-Revision", "Git-Url", "HK2-Class-Path-Id", "Ignore-Package", "Implementation-Build", "Implementation-Build-Date", "Implementation-Build-Id", "Implementation-Title", "Implementation-URL", "Implementation-Url", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JBossAS-Release-Codename", "JBossAS-Release-Version", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Java-Vendor", "Java-Version", "License", "Lombok-Version", "Main-Class", "Major-Version", "Manifest-Version", "Name", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Package", "Premain-Class", "Private-Package", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Terracotta-Description", "Terracotta-Name", "Terracotta-ProjectStatus", "Tool", "URL", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "probe-provider-class-names"]
+17:38:57,012 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.012 [ServerService Thread Pool -- 29] INFO  [uuid=] r.c.w.c.s.QuartzScheduler - Starting 2 jobs...
+17:38:57,050 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.050 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Using default implementation for ThreadExecutor
+17:38:57,056 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.055 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.s.SimpleThreadPool - Job execution threads will use class loader of thread: ServerService Thread Pool -- 29
+17:38:57,077 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.077 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:38:57,077 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.077 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+17:38:57,080 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.080 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.s.RAMJobStore - RAMJobStore initialized.
+17:38:57,081 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.081 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   NOT STARTED.
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   Currently in standby mode.
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   Number of jobs executed: 0
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29)   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29) 
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.082 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+17:38:57,082 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.082 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+17:38:57,083 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.083 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - JobFactory set to: ru.cetelem.ws.cash.schedule.QuartzScheduler$1@3f98b1ef
+17:38:57,103 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.103 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+17:38:57,246 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:38:57.246 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 4575 ms
+17:38:57,247 INFO  [com.sun.xml.ws.server.http] (ServerService Thread Pool -- 29) WSSERVLET12: JAX-WS context listener initializing
+17:38:57,281 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 29) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/CashLoanStatusService'
+17:38:58,714 INFO  [com.sun.xml.ws.server.http] (ServerService Thread Pool -- 29) WSSERVLET12: JAX-WS context listener initializing
+17:38:58,726 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /CashLoanStatusService
+17:38:58,761 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cash-loan-status-service-1.1.1.war" (runtime-name : "cash-loan-status-service-1.1.1.war")
+[2017-12-11 05:38:58,772] Artifact cash-loan-status-service:war: Artifact is deployed successfully
+[2017-12-11 05:38:58,772] Artifact cash-loan-status-service:war: Deploy took 11 966 milliseconds
+17:38:58,832 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cash-loan-service-1.1.1.war" (runtime-name: "cash-loan-service-1.1.1.war")
+17:39:01,984 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry hk2-core.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry class-model.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry config.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry auto-depends.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry javax.inject.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry asm-all-repackaged.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry hk2-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry osgi-resource-locator.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry tiger-types.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry bean-validator.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:01,986 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jtype.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ha-api-3.1.9.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,003 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry istack-commons-runtime-2.19.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxb-core-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,003 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry txw2-2.2.10-b140802.1033.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxb-core-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,004 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb-core.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxb-impl-2.2.10-b140802.1033.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,004 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry javax.annotation-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jsr181-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxws-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry javax.xml.soap-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry FastInfoset.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry gmbal-api-only.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry ha-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry management-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,005 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry mimepull.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry policy.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry saaj-impl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry stax-ex.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry stax2-api.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry streambuffer.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,008 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry woodstox-core-asl.jar in /C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/jaxws-rt-2.2.10.jar  does not point to a valid jar for a Class-Path reference.
+17:39:02,238 INFO  [stdout] (MSC service thread 1-1) 17:39:02,177 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,177 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,177 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/classes/logback.xml]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,178 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,178 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/classes/logback.xml]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,178 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/lib/ruxapi-client-1.0.16.jar/logback.xml]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,184 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4f23f99f - URL [vfs:/C:/bin/wildfly-10.1.0.Final.Clean/bin/content/cash-loan-service-1.1.1.war/WEB-INF/classes/logback.xml] is not of type file
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,198 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,199 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,204 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,207 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,221 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,223 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,223 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,227 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@411726289 - No compression will be used
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,228 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@411726289 - Will use the pattern C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-service-%d{yyyy-MM-dd}.log for the active file
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,230 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-service-%d{yyyy-MM-dd}.log'.
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,230 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+17:39:02,239 INFO  [stdout] (MSC service thread 1-1) 17:39:02,230 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Dec 11 17:37:01 MSK 2017
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,232 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-service.log
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,232 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-service.log]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,233 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,233 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE_SOAP]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,233 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,234 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1543719775 - No compression will be used
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,234 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1543719775 - Will use the pattern C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-service_SOAP-%d{yyyy-MM-dd}.log for the active file
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,234 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'C:/bin/wildfly-10.1.0.Final.Clean/standalone/log/cash-loan/cash-loan-service_SOAP-%d{yyyy-MM-dd}.log'.
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,234 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,235 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Dec 11 17:37:01 MSK 2017
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,235 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_SOAP] - Active log file name: C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-service_SOAP.log
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,235 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE_SOAP] - File property is set to [C:\bin\wildfly-10.1.0.Final.Clean\standalone\log/cash-loan/cash-loan-service_SOAP.log]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,236 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ru.cetelem.ws.cash] to INFO
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,236 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ru.cetelem.ws.cash] to false
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,236 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ru.cetelem.ws.cash]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ru.cetelem.ws.cash]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ru.cetelem.ws.cash.LoggingHandler] to INFO
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ru.cetelem.ws.cash.LoggingHandler] to false
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ru.cetelem.ws.cash.LoggingHandler]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE_SOAP] to Logger[ru.cetelem.ws.cash.LoggingHandler]
+17:39:02,240 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:39:02,241 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:39:02,241 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+17:39:02,241 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:39:02,241 INFO  [stdout] (MSC service thread 1-1) 17:39:02,237 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5ed56ac - Registering current configuration as safe fallback point
+17:39:02,241 INFO  [stdout] (MSC service thread 1-1) 
+17:39:02,281 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+17:39:02,282 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component com.sun.xml.ws.transport.http.servlet.WSAsyncListener$1 due to an exception (enable DEBUG log level to see the cause)
+17:39:02,283 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+17:39:02,304 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment deployment "cash-loan-service-1.1.1.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+17:39:02,304 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=ru.cetelem.ws.cash.CashLoanService
+ address=http://jbossws.undefined.host:8080/CashLoanService/CashLoanService
+ implementor=ru.cetelem.ws.cash.CashLoanService
+ serviceName={http://cash.ws.cetelem.ru/}CashLoanServiceService
+ portName={http://cash.ws.cetelem.ru/}CashLoanServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+17:39:02,313 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://cash.ws.cetelem.ru/}CashLoanServiceService from class ru.cetelem.services.cash.ICashLoanService
+17:39:02,393 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://jbossws.undefined.host:8080/CashLoanService/CashLoanService
+17:39:02,402 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/C:/bin/wildfly-10.1.0.Final.Clean/standalone/data/wsdl/cash-loan-service-1.1.1.war/CashLoanServiceService.wsdl
+17:39:02,423 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) WFLYWS0003: Starting service jboss.ws.endpoint."cash-loan-service-1.1.1.war"."ru.cetelem.ws.cash.CashLoanService"
+17:39:02,435 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 29) No Spring WebApplicationInitializer types detected on classpath
+17:39:02,921 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.920 [ServerService Thread Pool -- 29] INFO  [uuid=] c.j.m.Manifests - 82 attributes loaded from 82 stream(s) in 9ms, 82 saved, 965 ignored: ["Agent-Class", "Ant-Version", "Archiver-Version", "Bnd-LastModified", "Build-Id", "Build-Jdk", "Build-Timestamp", "Build-Version", "BuildInfo-Host", "BuildInfo-Revision", "BuildInfo-Timestamp", "BuildInfo-URL", "BuildInfo-User", "Built-By", "Bundle-Activator", "Bundle-ContactAddress", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Can-Redefine-Classes", "Cash-Loan-Service-Version", "Class-Path", "Created-By", "DynamicImport-Package", "Export-Package", "Extension-Name", "Git-Revision", "Git-Url", "HK2-Class-Path-Id", "Ignore-Package", "Implementation-Build", "Implementation-Build-Date", "Implementation-Build-Id", "Implementation-Title", "Implementation-URL", "Implementation-Url", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JBossAS-Release-Codename", "JBossAS-Release-Version", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Java-Vendor", "Java-Version", "License", "Lombok-Version", "Main-Class", "Major-Version", "Manifest-Version", "Name", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Package", "Premain-Class", "Private-Package", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Terracotta-Description", "Terracotta-Name", "Terracotta-ProjectStatus", "Tool", "URL", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "probe-provider-class-names"]
+17:39:02,932 INFO  [com.sun.xml.ws.servlet.http] (ServerService Thread Pool -- 29) WSSERVLET14: JAX-WS servlet initializing
+17:39:02,932 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 29) Initializing Spring root WebApplicationContext
+17:39:02,933 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.932 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+17:39:02,981 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.980 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Successfully resolved class for [ru.cetelem.ws.cash.Config]
+17:39:03,184 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.184 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:39:03,471 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.471 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.c.w.DefaultContextLoadTimeWeaver - Determined server-specific load-time weaver: org.springframework.instrument.classloading.jboss.JBossLoadTimeWeaver
+17:39:03,480 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.480 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.c.w.DefaultContextLoadTimeWeaver - Determined server-specific load-time weaver: org.springframework.instrument.classloading.jboss.JBossLoadTimeWeaver
+17:39:03,630 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.630 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+17:39:03,768 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.765 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+17:39:03,769 INFO  [stdout] (ServerService Thread Pool -- 29) 	name: default
+17:39:03,769 INFO  [stdout] (ServerService Thread Pool -- 29) 	...]
+17:39:03,988 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.988 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.Version - HHH000412: Hibernate Core {5.2.10.Final}
+17:39:03,990 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:03.990 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.c.Environment - HHH000206: hibernate.properties not found
+17:39:04,071 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.071 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17:39:04,317 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.317 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+17:39:04,372 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.372 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@69fc54d
+17:39:04,372 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.372 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@69fc54d
+17:39:04,373 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.373 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@286cbcae
+17:39:04,374 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.373 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.t.BasicTypeRegistry - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@286cbcae
+17:39:04,603 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.603 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:39:04,606 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.606 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:39:04,606 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.606 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:39:04,607 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:04.607 [ServerService Thread Pool -- 29] WARN  [uuid=] o.h.o.deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+17:39:05,022 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:05.021 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:39:06,110 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.110 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.a.f.CglibAopProxy - Final method [public final java.lang.String com.google.common.eventbus.EventBus.identifier()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+17:39:06,110 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.110 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.a.f.CglibAopProxy - Final method [final java.util.concurrent.Executor com.google.common.eventbus.EventBus.executor()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+17:39:06,182 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.182 [ServerService Thread Pool -- 29] INFO  [uuid=] o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+17:39:06,636 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.636 [ServerService Thread Pool -- 29] INFO  [uuid=] r.c.w.c.s.QuartzScheduler - Starting 1 jobs...
+17:39:06,668 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.668 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Using default implementation for ThreadExecutor
+17:39:06,672 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.672 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.s.SimpleThreadPool - Job execution threads will use class loader of thread: ServerService Thread Pool -- 29
+17:39:06,692 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.692 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:39:06,692 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.692 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+17:39:06,694 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.694 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.s.RAMJobStore - RAMJobStore initialized.
+17:39:06,695 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.695 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+17:39:06,695 INFO  [stdout] (ServerService Thread Pool -- 29)   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29)   NOT STARTED.
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29)   Currently in standby mode.
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29)   Number of jobs executed: 0
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29)   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29)   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29) 
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.696 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+17:39:06,696 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.696 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.i.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+17:39:06,698 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.697 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - JobFactory set to: ru.cetelem.ws.cash.schedule.QuartzScheduler$1@66aef112
+17:39:06,714 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.714 [ServerService Thread Pool -- 29] INFO  [uuid=] o.q.c.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+17:39:06,832 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:06.831 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 3898 ms
+17:39:06,832 INFO  [com.sun.xml.ws.server.http] (ServerService Thread Pool -- 29) WSSERVLET12: JAX-WS context listener initializing
+17:39:06,835 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 29) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/CashLoanService'
+17:39:08,107 INFO  [com.sun.xml.ws.server.http] (ServerService Thread Pool -- 29) WSSERVLET12: JAX-WS context listener initializing
+17:39:08,108 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /CashLoanService
+17:39:08,151 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "cash-loan-service-1.1.1.war" (runtime-name : "cash-loan-service-1.1.1.war")
+[2017-12-11 05:39:08,165] Artifact cash-loan-service:war: Artifact is deployed successfully
+[2017-12-11 05:39:08,165] Artifact cash-loan-service:war: Deploy took 21 359 milliseconds
+17:39:14,529 INFO  [stdout] (default task-1) 2017-12-11 17:39:14.528 [default task-1] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cash="http://www.cetelem.ru/services/cash"><soapenv:Header/><soapenv:Body>
+17:39:14,529 INFO  [stdout] (default task-1)       <cash:createRequest>
+17:39:14,529 INFO  [stdout] (default task-1)          <applicationData>
+17:39:14,529 INFO  [stdout] (default task-1)             <uuid>339162d0-b4b0-11e7-b443-0a5c6a610020</uuid>
+17:39:14,529 INFO  [stdout] (default task-1)             <source>SB</source>
+17:39:14,529 INFO  [stdout] (default task-1)             <loanData>
+17:39:14,529 INFO  [stdout] (default task-1)                <creditProductCode>0319</creditProductCode>
+17:39:14,529 INFO  [stdout] (default task-1)                <creditPurpose>014</creditPurpose>
+17:39:14,529 INFO  [stdout] (default task-1)                <loanAmountRUB>30000</loanAmountRUB>
+17:39:14,529 INFO  [stdout] (default task-1)                <maxMonthlyPaymentRUB>999</maxMonthlyPaymentRUB>
+17:39:14,529 INFO  [stdout] (default task-1)                <durationInMonths>36</durationInMonths>
+17:39:14,529 INFO  [stdout] (default task-1)                <addtitionalOptions>
+17:39:14,529 INFO  [stdout] (default task-1)                   <cpiInsuranceOptionSelected>false</cpiInsuranceOptionSelected>
+17:39:14,529 INFO  [stdout] (default task-1)                   <lkpInsuranceOptionSelected>false</lkpInsuranceOptionSelected>
+17:39:14,529 INFO  [stdout] (default task-1)                   <smsNotificationOptionSelected>false</smsNotificationOptionSelected>
+17:39:14,529 INFO  [stdout] (default task-1)                </addtitionalOptions>
+17:39:14,529 INFO  [stdout] (default task-1)             </loanData>
+17:39:14,529 INFO  [stdout] (default task-1)             <clientData>
+17:39:14,529 INFO  [stdout] (default task-1)                <client>
+17:39:14,529 INFO  [stdout] (default task-1)                   <surname>Р РѕС‚Р°СЂ</surname>
+17:39:14,529 INFO  [stdout] (default task-1)                   <name>РђРЅРґСЂРµР№</name>
+17:39:14,529 INFO  [stdout] (default task-1)                   <patronymic>РќРёРєРѕР»Р°РµРІРёС‡</patronymic>
+17:39:14,529 INFO  [stdout] (default task-1)                   <birthday>1976-08-07</birthday>
+17:39:14,530 INFO  [stdout] (default task-1)                   <sex>MAL</sex>
+17:39:14,530 INFO  [stdout] (default task-1)                   <fioIsChanged>true</fioIsChanged>
+17:39:14,530 INFO  [stdout] (default task-1)                   <previousFio>
+17:39:14,530 INFO  [stdout] (default task-1)                      <surname>Р“СЂРёР±</surname>
+17:39:14,530 INFO  [stdout] (default task-1)                      <name>РќР°С‚Р°Р»СЊСЏ</name>
+17:39:14,530 INFO  [stdout] (default task-1)                      <patronymic>Р’СЏС‡РµСЃР»Р°РІРѕРІРЅР°</patronymic>
+17:39:14,530 INFO  [stdout] (default task-1)                   </previousFio>
+17:39:14,530 INFO  [stdout] (default task-1)                   <nameLatin>Andrey</nameLatin>
+17:39:14,530 INFO  [stdout] (default task-1)                   <surnameLatin>Rotar</surnameLatin>
+17:39:14,530 INFO  [stdout] (default task-1)                   <birthPlace>Р“ РЎР›РђР’Р“РћР РћР”</birthPlace>
+17:39:14,530 INFO  [stdout] (default task-1)                   <occupation>D</occupation>
+17:39:14,530 INFO  [stdout] (default task-1)                   <education>6</education>
+17:39:14,530 INFO  [stdout] (default task-1)                </client>
+17:39:14,530 INFO  [stdout] (default task-1)                <family>
+17:39:14,530 INFO  [stdout] (default task-1)                   <maritalStatus>C</maritalStatus>
+17:39:14,530 INFO  [stdout] (default task-1)                   <numberOfChildren>0</numberOfChildren>
+17:39:14,530 INFO  [stdout] (default task-1)                   <numberOfDependents>0</numberOfDependents>
+17:39:14,530 INFO  [stdout] (default task-1)                   <numberOfFamilyMembers>1</numberOfFamilyMembers>
+17:39:14,530 INFO  [stdout] (default task-1)                </family>
+17:39:14,532 INFO  [stdout] (default task-1)                <documents>
+17:39:14,532 INFO  [stdout] (default task-1)                   <passport>
+17:39:14,532 INFO  [stdout] (default task-1)                      <series>1202</series>
+17:39:14,532 INFO  [stdout] (default task-1)                      <number>311112</number>
+17:39:14,532 INFO  [stdout] (default task-1)                      <issuedBy>РћР’Р” РЎР›РђР’Р“РћР РћР”Рђ</issuedBy>
+17:39:14,532 INFO  [stdout] (default task-1)                      <dateOfIssue>1998-10-22</dateOfIssue>
+17:39:14,532 INFO  [stdout] (default task-1)                      <subdivisionCode>222-046</subdivisionCode>
+17:39:14,532 INFO  [stdout] (default task-1)                   </passport>
+17:39:14,532 INFO  [stdout] (default task-1)                   <registeredInPensionFund>true</registeredInPensionFund>
+17:39:14,532 INFO  [stdout] (default task-1)                   <snils>04788253905</snils>
+17:39:14,532 INFO  [stdout] (default task-1)                   <incomeProof>
+17:39:14,532 INFO  [stdout] (default task-1)                      <twoNDFLPresented>false</twoNDFLPresented>
+17:39:14,532 INFO  [stdout] (default task-1)                      <freeFormPresented>false</freeFormPresented>
+17:39:14,532 INFO  [stdout] (default task-1)                      <laborBookPresented>false</laborBookPresented>
+17:39:14,532 INFO  [stdout] (default task-1)                      <threeNDFLPresented>false</threeNDFLPresented>
+17:39:14,532 INFO  [stdout] (default task-1)                      <taxReturnPresented>false</taxReturnPresented>
+17:39:14,532 INFO  [stdout] (default task-1)                   </incomeProof>
+17:39:14,532 INFO  [stdout] (default task-1)                </documents>
+17:39:14,532 INFO  [stdout] (default task-1)                <contactInformation>
+17:39:14,532 INFO  [stdout] (default task-1)                   <homePhone>
+17:39:14,532 INFO  [stdout] (default task-1)                      <code>838568</code>
+17:39:14,532 INFO  [stdout] (default task-1)                      <number>29434</number>
+17:39:14,532 INFO  [stdout] (default task-1)                   </homePhone>
+17:39:14,532 INFO  [stdout] (default task-1)                   <workPhone>
+17:39:14,532 INFO  [stdout] (default task-1)                      <code>838568</code>
+17:39:14,532 INFO  [stdout] (default task-1)                      <number>53219</number>
+17:39:14,532 INFO  [stdout] (default task-1)                   </workPhone>
+17:39:14,532 INFO  [stdout] (default task-1)                   <mobilePhone>
+17:39:14,532 INFO  [stdout] (default task-1)                      <number>89151130275</number>
+17:39:14,532 INFO  [stdout] (default task-1)                   </mobilePhone>
+17:39:14,532 INFO  [stdout] (default task-1)                   <registationAddress>
+17:39:14,532 INFO  [stdout] (default task-1)                      <regionCode>22</regionCode>
+17:39:14,532 INFO  [stdout] (default task-1)                      <localityName>РЎР»Р°РІРіРѕСЂРѕРґ</localityName>
+17:39:14,532 INFO  [stdout] (default task-1)                      <localityType>C</localityType>
+17:39:14,533 INFO  [stdout] (default task-1)                      <street>
+17:39:14,533 INFO  [stdout] (default task-1)                         <streetName>РџР°РІР»РёРєР° РњРѕСЂРѕР·РѕРІР°</streetName>
+17:39:14,533 INFO  [stdout] (default task-1)                         <streetType>29</streetType>
+17:39:14,533 INFO  [stdout] (default task-1)                      </street>
+17:39:14,533 INFO  [stdout] (default task-1)                      <postcode>658823</postcode>
+17:39:14,533 INFO  [stdout] (default task-1)                      <house>201</house>
+17:39:14,533 INFO  [stdout] (default task-1)                      <registrationDateYYYYMM>1976-08</registrationDateYYYYMM>
+17:39:14,533 INFO  [stdout] (default task-1)                      <sharedAparment>false</sharedAparment>
+17:39:14,533 INFO  [stdout] (default task-1)                   </registationAddress>
+17:39:14,533 INFO  [stdout] (default task-1)                   <actualAddress>
+17:39:14,533 INFO  [stdout] (default task-1)                      <regionCode>22</regionCode>
+17:39:14,533 INFO  [stdout] (default task-1)                      <localityName>РЎР»Р°РІРіРѕСЂРѕРґ</localityName>
+17:39:14,533 INFO  [stdout] (default task-1)                      <localityType>C</localityType>
+17:39:14,533 INFO  [stdout] (default task-1)                      <street>
+17:39:14,533 INFO  [stdout] (default task-1)                         <streetName>РџР°РІР»РёРєР° РњРѕСЂРѕР·РѕРІР°</streetName>
+17:39:14,533 INFO  [stdout] (default task-1)                         <streetType>29</streetType>
+17:39:14,533 INFO  [stdout] (default task-1)                      </street>
+17:39:14,533 INFO  [stdout] (default task-1)                      <house>201</house>
+17:39:14,533 INFO  [stdout] (default task-1)                      <livingFromYYYYMM>1976-08</livingFromYYYYMM>
+17:39:14,533 INFO  [stdout] (default task-1)                      <sharedAparment>false</sharedAparment>
+17:39:14,533 INFO  [stdout] (default task-1)                      <dwellingType>F</dwellingType>
+17:39:14,533 INFO  [stdout] (default task-1)                   </actualAddress>
+17:39:14,533 INFO  [stdout] (default task-1)                   <mailingAddress>1</mailingAddress>
+17:39:14,533 INFO  [stdout] (default task-1)                </contactInformation>
+17:39:14,533 INFO  [stdout] (default task-1)                <employment>
+17:39:14,533 INFO  [stdout] (default task-1)                   <durationOfWorkOnPreviousPlaceInYears>0</durationOfWorkOnPreviousPlaceInYears>
+17:39:14,533 INFO  [stdout] (default task-1)                   <experience>10</experience>
+17:39:14,533 INFO  [stdout] (default task-1)                   <currentEmployment>
+17:39:14,533 INFO  [stdout] (default task-1)                      <hiringDateYYYYMM>2007-10</hiringDateYYYYMM>
+17:39:14,533 INFO  [stdout] (default task-1)                      <position>23</position>
+17:39:14,533 INFO  [stdout] (default task-1)                      <employer>
+17:39:14,533 INFO  [stdout] (default task-1)                         <organization>
+17:39:14,533 INFO  [stdout] (default task-1)                            <type>PR</type>
+17:39:14,533 INFO  [stdout] (default task-1)                            <legalForm>T</legalForm>
+17:39:14,533 INFO  [stdout] (default task-1)                            <name>РћР±С‰РµСЃС‚РІРѕ СЃ РѕРіСЂР°РЅРёС‡РµРЅРЅРѕР№ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊСЋ "РЎРёР±РёСЂСЃРєРёРµ Р РµСЃСѓСЂСЃС‹"</name>
+17:39:14,533 INFO  [stdout] (default task-1)                            <activityType>5200</activityType>
+17:39:14,533 INFO  [stdout] (default task-1)                            <activityType375P>0001</activityType375P>
+17:39:14,533 INFO  [stdout] (default task-1)                         </organization>
+17:39:14,533 INFO  [stdout] (default task-1)                         <address>
+17:39:14,534 INFO  [stdout] (default task-1)                            <regionCode>22</regionCode>
+17:39:14,534 INFO  [stdout] (default task-1)                            <localityName>РЎР»Р°РІРіРѕСЂРѕРґ</localityName>
+17:39:14,534 INFO  [stdout] (default task-1)                            <localityType>C</localityType>
+17:39:14,534 INFO  [stdout] (default task-1)                         </address>
+17:39:14,534 INFO  [stdout] (default task-1)                      </employer>
+17:39:14,534 INFO  [stdout] (default task-1)                   </currentEmployment>
+17:39:14,534 INFO  [stdout] (default task-1)                </employment>
+17:39:14,534 INFO  [stdout] (default task-1)                <financialInformation>
+17:39:14,534 INFO  [stdout] (default task-1)                   <income>
+17:39:14,534 INFO  [stdout] (default task-1)                      <clientSalaryPerMonthRUB>200000</clientSalaryPerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <additionalClientIncomePerMonthRUB>0</additionalClientIncomePerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <separateFamilyIncomePerMonthRUB>0</separateFamilyIncomePerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <totalIncomePerMonthRUB>200000</totalIncomePerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                   </income>
+17:39:14,534 INFO  [stdout] (default task-1)                   <expenses>
+17:39:14,534 INFO  [stdout] (default task-1)                      <mandatoryChargesPerMonthRUB>0</mandatoryChargesPerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <dwellingExpensesPerMonthRUB>0</dwellingExpensesPerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <otherClientLoanPaymentsPerMonthRUB>0</otherClientLoanPaymentsPerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                      <familyLoanPaymentsPerMonthRUB>0</familyLoanPaymentsPerMonthRUB>
+17:39:14,534 INFO  [stdout] (default task-1)                   </expenses>
+17:39:14,534 INFO  [stdout] (default task-1)                </financialInformation>
+17:39:14,534 INFO  [stdout] (default task-1)                <additionalInformation>
+17:39:14,534 INFO  [stdout] (default task-1)                   <havingCar>false</havingCar>
+17:39:14,534 INFO  [stdout] (default task-1)                   <havingBankAccount>false</havingBankAccount>
+17:39:14,534 INFO  [stdout] (default task-1)                   <havingPlasticCard>false</havingPlasticCard>
+17:39:14,534 INFO  [stdout] (default task-1)                   <pepOrHavingPepRelatives>false</pepOrHavingPepRelatives>
+17:39:14,534 INFO  [stdout] (default task-1)                   <consentingAdvertisingRecieving>true</consentingAdvertisingRecieving>
+17:39:14,534 INFO  [stdout] (default task-1)                </additionalInformation>
+17:39:14,534 INFO  [stdout] (default task-1)             </clientData>
+17:39:14,534 INFO  [stdout] (default task-1)          </applicationData>
+17:39:14,534 INFO  [stdout] (default task-1)       </cash:createRequest>
+17:39:14,534 INFO  [stdout] (default task-1)    </soapenv:Body>
+17:39:14,534 INFO  [stdout] (default task-1)    
+17:39:14,534 INFO  [stdout] (default task-1)    </soapenv:Envelope>
+17:39:14,564 INFO  [stdout] (default task-1) 2017-12-11 17:39:14.563 [default task-1] INFO  [uuid=] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:39:18,646 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.646 [default task-1] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination LOCAL...
+17:39:18,654 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.654 [default task-1] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - pending actions found by destination LOCAL: 1
+17:39:18,678 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.678 [default task-1] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Creating service for endpoint 'http://localhost:8080/CashLoanStatusService/CashLoanStatusService?wsdl'...
+17:39:18,718 INFO  [stdout] (default task-2) 2017-12-11 17:39:18.718 [default task-2] INFO  [uuid=] r.c.w.c.LoggingHandler - <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getVersion xmlns:ns2="http://www.cetelem.ru/services/cash/status"/></SOAP-ENV:Body></SOAP-ENV:Envelope>
+17:39:18,724 INFO  [stdout] (default task-2) 2017-12-11 17:39:18.724 [default task-2] INFO  [uuid=] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:39:18,747 INFO  [stdout] (default task-2) 2017-12-11 17:39:18.747 [default task-2] INFO  [uuid=] r.c.w.c.LoggingHandler - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/><soap:Body><ns2:getVersionResponse xmlns:ns2="http://www.cetelem.ru/services/cash/status"><version>1.1.1</version></ns2:getVersionResponse></soap:Body></soap:Envelope>
+17:39:18,756 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.756 [default task-1] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Service with version 1.1.1 successfully created for endpoint 'http://localhost:8080/CashLoanStatusService/CashLoanStatusService?wsdl'
+17:39:18,757 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.757 [default task-1] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Trying to send pending action #117 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610020.
+17:39:18,757 INFO  [stdout] (default task-1) 2017-12-11 17:39:18.757 [default task-1] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Notifying status service about application 339162d0-b4b0-11e7-b443-0a5c6a610020
+17:39:18,760 INFO  [stdout] (default task-3) 2017-12-11 17:39:18.760 [default task-3] INFO  [uuid=] r.c.w.c.LoggingHandler - <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:notifyByUuid xmlns:ns2="http://www.cetelem.ru/services/cash/status"><uuid>339162d0-b4b0-11e7-b443-0a5c6a610020</uuid></ns2:notifyByUuid></SOAP-ENV:Body></SOAP-ENV:Envelope>
+17:39:19,484 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.484 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:19,492 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.491 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:19,522 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.521 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Creating service for endpoint 'http://sdesb02.jv.ru:7803/loan/CashLoanApplicationStatusService?wsdl'...
+17:39:19,559 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.559 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Service with version 0.0.34 successfully created for endpoint 'http://sdesb02.jv.ru:7803/loan/CashLoanApplicationStatusService?wsdl'
+17:39:19,559 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.559 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Trying to send pending action #118 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610020.
+17:39:19,563 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.563 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610020
+17:39:24,199 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.198 [default task-4] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:24,199 INFO  [stdout] (default task-4)       <stat:notifyByNumauto>
+17:39:24,199 INFO  [stdout] (default task-4)          <numauto>34500012</numauto>
+17:39:24,199 INFO  [stdout] (default task-4)       </stat:notifyByNumauto>
+17:39:24,199 INFO  [stdout] (default task-4)    </soapenv:Body>
+17:39:24,199 INFO  [stdout] (default task-4)    
+17:39:24,199 INFO  [stdout] (default task-4)    </soapenv:Envelope>
+17:39:24,677 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.677 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:24,680 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.680 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:24,687 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.687 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Trying to send pending action #119 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610013.
+17:39:24,688 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.688 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610013
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:26,614 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.613 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.620 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Trying to send pending action #120 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610012.
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - 1Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - 2Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - 3Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 4Checking for pending actions by destination ESB...
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 5Checking for pending actions by destination ESB...
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 6Checking for pending actions by destination ESB...
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 7Checking for pending actions by destination ESB...
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 8Checking for pending actions by destination ESB...
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - 9Checking for pending actions by destination ESB...
+17:39:19,563 INFO  [stdout] (default task-3) 2017-12-11 17:39:19.563 [default task-3] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610020] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610020
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:24,677 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.677 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:24,680 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.680 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:24,687 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.687 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Trying to send pending action #119 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610013.
+17:39:24,688 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.688 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610013
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:26,614 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.613 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.620 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Trying to send pending action #120 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610012.
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:24,677 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.677 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:24,680 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.680 [default task-4] INFO  [uuid=] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:24,687 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.687 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Trying to send pending action #119 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610013.
+17:39:24,688 INFO  [stdout] (default task-4) 2017-12-11 17:39:24.688 [default task-4] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610013] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610013
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:26,614 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.613 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.620 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Trying to send pending action #120 for application with UUID 339162d0-b4b0-11e7-b443-0a5c6a610012.
+17:39:26,621 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.621 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionsSender - Sending status APPROVED for application 339162d0-b4b0-11e7-b443-0a5c6a610012
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:26,614 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.613 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - pending actions found by destination ESB: 1
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:02,933 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.932 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+17:39:26,209 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.209 [default task-5] INFO  [uuid=] r.c.w.c.LoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:stat="http://www.cetelem.ru/services/cash/status"><soapenv:Header/><soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)       <stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)          <uuid>339162d0-b4b0-11e7-b443-0a5c6a610012</uuid>
+17:39:26,210 INFO  [stdout] (default task-5)       </stat:notifyByUuid>
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Body>
+17:39:26,210 INFO  [stdout] (default task-5)    
+17:39:26,210 INFO  [stdout] (default task-5)    </soapenv:Envelope>
+17:39:26,611 INFO  [stdout] (default task-5) 2017-12-11 17:39:26.611 [default task-5] INFO  [uuid=339162d0-b4b0-11e7-b443-0a5c6a610012] r.c.w.c.e.PendingActionEventBus - Checking for pending actions by destination ESB...
+17:39:02,933 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.932 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+17:39:02,955 INFO  [stdout] (ServerService Thread Pool -- 29) 2017-12-11 17:39:02.955 [ServerService Thread Pool -- 29] INFO  [uuid=] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Dec 11 17:39:02 MSK 2017]; root of context hierarchy
+
