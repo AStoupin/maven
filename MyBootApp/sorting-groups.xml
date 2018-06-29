@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<groups xmlns="http://cetelem.ru/integration/cash/rsl">
+    <!-- группа заполнена произвольными значениями -->
+    <group>
+        <order>1</order>
+        <fields>
+            <field>
+                <name>SEX</name>
+                <description>Пол</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>М</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>FLOOR(MONTHS_BETWEEN(SYSDATE, TO_DATE(DOB,'DD.MM.YYYY'))/12)</name>
+                <description>Возраст (выражение соответствует числу полных лет от
+                    текущей даты, расчитывается по дате рождения)
+                </description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>30</min>
+                        <max>90</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EDSTATUS</name>
+                <description>Образование</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Несколько высших</value>
+                        <value>Высшее</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CHANNEL</name>
+                <description>Канал поступления заявки</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>СБОЛ</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>FINALREFUSECODE</name>
+                <description>Код отказа</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>code1</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CREDAMNT</name>
+                <description>Запрашиваемая сумма кредита</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>100000.00</min>
+                        <max>200000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>LOANPERIODM</name>
+                <description>Срок кредита</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>0</min>
+                        <max>10</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EMPLOYSTATUS</name>
+                <description>Информация о трудоустройстве</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Срочный контракт</value>
+                        <value>Агент на комиссионном договоре</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EMPLINDUSTRYSECTOR</name>
+                <description>Вид деятельности компании</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>JOBTYPE</name>
+                <description>Позиция в организации</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>AVGCONFINCOME6MNTH</name>
+                <description>Доход по основному месту работы</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>100000.00</min>
+                        <max>200000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>AVGFAMILYINCOME</name>
+                <description>Совокупный доход семьи</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>100000.00</min>
+                        <max>200000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>TRANSPORTEXIST</name>
+                <description>Факт наличия личного авто у клиента</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Нет</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>FINDOCSAVGINCOME</name>
+                <description>Среднемесячный доход по предоставленному документу</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>100000.00</min>
+                        <max>200000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+        </fields>
+    </group>
+    <!-- группа заполнена значениями из требований (1-ая группа) наиболее полно -->
+    <group>
+        <order>2</order>
+        <fields>
+            <field>
+                <name>SEX</name>
+                <description>Пол</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Ж</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>FLOOR(MONTHS_BETWEEN(SYSDATE, TO_DATE(DOB,'DD.MM.YYYY'))/12)</name>
+                <description>Возраст (выражение соответствует числу полных лет от
+                    текущей даты, расчитывается по дате рождения)
+                </description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>30</min>
+                        <max>45</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EDSTATUS</name>
+                <description>Образование</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Высшее</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CREDAMNT</name>
+                <description>Запрашиваемая сумма кредита</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>30000.00</min>
+                        <max>250000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CHANNEL</name>
+                <description>Канал поступления заявки</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>СБОЛ</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>FINALREFUSECODE</name>
+                <description>Код отказа</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>0000PAFD</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>LOANPERIODM</name>
+                <description>Срок кредита</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>EMPLOYSTATUS</name>
+                <description>Информация о трудоустройстве</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>EMPLINDUSTRYSECTOR</name>
+                <description>Вид деятельности компании</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>JOBTYPE</name>
+                <description>Позиция в организации</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>AVGCONFINCOME6MNTH</name>
+                <description>Доход по основному месту работы</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>AVGFAMILYINCOME</name>
+                <description>Совокупный доход семьи</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>TRANSPORTEXIST</name>
+                <description>Факт наличия личного авто у клиента</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+            <field>
+                <name>FINDOCSAVGINCOME</name>
+                <description>Среднемесячный доход по предоставленному документу</description>
+                <constraints>
+                    <noConstraint/>
+                </constraints>
+            </field>
+        </fields>
+    </group>
+    <!-- группа заполнена значениями из требований (2-ая группа) наиболее кратко -->
+    <group>
+        <order>3</order>
+        <fields>
+            <field>
+                <name>SEX</name>
+                <description>Пол</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>М</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EDSTATUS</name>
+                <description>Образование</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Незаконченное высшее</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CREDAMNT</name>
+                <description>Запрашиваемая сумма кредита</description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>100000.00</min>
+                        <max>500000.00</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>CHANNEL</name>
+                <description>Канал поступления заявки</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>ВСП</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+        </fields>
+    </group>
+    <!-- группа заполнена значениями из требований (3-ая группа) наиболее кратко -->
+    <group>
+        <order>4</order>
+        <fields>
+            <field>
+                <name>FLOOR(MONTHS_BETWEEN(SYSDATE, TO_DATE(DOB,'DD.MM.YYYY'))/12)</name>
+                <description>Возраст (выражение соответствует числу полных лет от
+                    текущей даты, расчитывается по дате рождения)
+                </description>
+                <constraints>
+                    <minMaxConstraint>
+                        <min>20</min>
+                        <max>45</max>
+                    </minMaxConstraint>
+                </constraints>
+            </field>
+            <field>
+                <name>EDSTATUS</name>
+                <description>Образование</description>
+                <constraints>
+                    <valueConstraint>
+                        <value>Среднее</value>
+                    </valueConstraint>
+                </constraints>
+            </field>
+        </fields>
+    </group>
+</groups>
